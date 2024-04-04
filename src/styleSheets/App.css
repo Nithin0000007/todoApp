@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://c0.wallpaperflare.com/preview/492/52/946/food-and-drink-book-books-coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.423);
+}
+
+#input{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 5px;
+    border: 2px solid green;
+    outline-color: green;
+}
+#add-btn{
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 35px;
+    font-weight:400 ;
+    color: green;
+    border: 2px solid green;
+    transition: .3s;
+}
+#add-btn:hover{
+    background-color: green;
+    color: white;
+}
+
+
+.input-div{
+    width: 500px;
+    background-color: white;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+
+/* javascript */
+
+.task{
+    width: 500px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 15px;
+    margin: 30px;
+}
+
+.task-input{
+    font-size: 25px;
+    position: absolute;
+    left: 550px;
+   border: none;
+   padding: 5px;
+   outline-color: green;
+   border-radius: 10px;
+}
+
+.delete-btn{
+    padding: 7px 10px;
+    font-size: 22px;
+    position: absolute;
+    right: 550px;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.check-btn{
+    padding: 7px 10px;
+    font-size: 22px;
+    position: absolute;
+    right: 610px;
+    background-color: white;
+    color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 6px;
+    transition: .3s;
+}
+.check-btn:hover{
+    background-color: greenyellow;
+    color: white;
+}
+
+.delete-btn:hover{
+    background-color: red;
+    color: white;
+}
